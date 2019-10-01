@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'capistrano-rvm', '~> 0.1.2'
+gem 'capistrano-bundler', '~> 1.6'
+gem 'capistrano-rails', '~> 1.4'
 
 gem 'capistrano', '~> 3.11', '>= 3.11.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
