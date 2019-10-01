@@ -3,7 +3,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'capistrano-rvm', '~> 0.1.2'
 
-ruby '2.6.4'
 gem 'capistrano', '~> 3.11', '>= 3.11.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
